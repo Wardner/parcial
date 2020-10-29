@@ -1,0 +1,93 @@
+html {
+  font-size: 62.5%; /** Reset para REMS - 62.5% = 10px de 16px **/
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* body */
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+
+/* Globales */
+
+img {
+  max-width: 100%;
+}
+.container {
+  width: 95%;
+  max-width: 120rem;
+  margin: 0 auto;
+}
+h1 {
+  font-size: 3.8rem;
+}
+h2 {
+  font-size: 3.4rem;
+}
+h3 {
+  font-size: 3rem;
+}
+h4 {
+  font-size: 2rem;
+}
+
+/** utilidades **/
+
+.section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.fw-300 {
+  font-weight: 300;
+}
+.center-text {
+  text-align: center;
+}
+.d-block {
+  display: block !important;
+}
+
+.initial-text {
+  color: #ffffff;
+}
+
+.site-header.start {
+  background-image: url(../images/ipoh.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  min-height: 60rem;
+}
+
+.header {
+  padding-top: 5rem;
+}
+
+.container-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20rem;
+}
+
+.card {
+  background-color: none;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+.specs-card{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border: solid 3px black;
+}
